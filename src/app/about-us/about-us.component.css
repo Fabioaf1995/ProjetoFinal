@@ -1,0 +1,18 @@
+.about-us {
+    background-color: lightblue;
+    color: black;
+    height: 750px;
+    width: 100%;
+    text-align: center;
+}
+
+.image {
+    width: 100%;
+    height: 400px;
+}
+
+.apresentacao {
+    text-align: justify;
+    width: 80%;
+    margin-left: 10%;
+}

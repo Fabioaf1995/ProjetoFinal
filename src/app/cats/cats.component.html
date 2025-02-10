@@ -1,1 +1,36 @@
-<p>cats works!</p>
+<div class="cats">
+
+    <h2>Explore os felinos.</h2>
+
+    <p>Clique no botão e comece a explorar os gatos.</p>
+
+    <br/>
+
+    <button class="botao" (click)="buscarCat()"> Buscar Gato </button>
+
+    <br/>
+    <br/>
+
+    <section id="api">
+
+        <article class="informacoes">
+
+            <div>
+                <img src="{{paramFoto}}" />
+            </div>
+
+            <br/>
+
+            <div>
+                <p>Nome: {{ paramName }}</p>
+                <p>Origem: {{ paramOrigin }} </p>
+            </div>
+
+        </article>
+
+    </section>
+
+    <br/>
+    <br/>
+
+</div>
